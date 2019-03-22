@@ -3,7 +3,7 @@
         "module": "amd",
         "target": "es5",
         "sourceMap": false,
-        "outFile": "wxgame/mygame.js",
+        "outFile": "wxgame/js/mygame.js",
         "allowJs": true,
         "watch": false,
         "lib": [

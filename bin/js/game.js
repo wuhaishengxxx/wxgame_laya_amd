@@ -166,21 +166,11 @@ define("src/TestUI", ["require", "exports"], function (require, exports) {
         __extends(TestUI, _super);
         function TestUI() {
             var _this = _super.call(this) || this;
-            //btn是编辑器界面设定的，代码里面能直接使用，并且有代码提示
-            _this.btn.on(Laya.Event.CLICK, _this, _this.onBtnClick);
             var html = new Laya.HTMLDivElement();
-            html.innerHTML = "<span color='#e3d26a'>使用</span>";
+            html.innerHTML = "<span color='#e3d26a'>Html测试</span>";
             _this.addChild(html);
             return _this;
         }
-        TestUI.prototype.onBtnClick = function () {
-            //手动控制组件属性
-            this.radio.selectedIndex = 1;
-            this.clip.index = 8;
-            this.tab.selectedIndex = 2;
-            this.combobox.selectedIndex = 0;
-            this.check.selected = true;
-        };
         return TestUI;
     }(ui.test.TestPageUI));
     exports.TestUI = TestUI;
