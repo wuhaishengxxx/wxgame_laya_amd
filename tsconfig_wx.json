@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es5",
+        "sourceMap": false,
+        "outFile": "wxgame/mygame.js",
+        "allowJs": true,
+        "watch": false,
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "bin/libs/require.js",
+        "bin/libs/laya.core.js",
+        "bin/libs/laya.ani.js",
+        "bin/libs/laya.webgl.js",
+        "bin/libs/laya.filter.js",
+        "bin/libs/laya.html.js",
+        "bin/libs/laya.ui.js",
+        "bin/libs/laya.wxmini.js"
+    ],
+    "include": [
+        "src",
+        "src_wx"
+    ]
+}
